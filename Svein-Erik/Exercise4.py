@@ -6,4 +6,6 @@ num = int(input("Please give me a number: "))
 
 x = range(1, num)
 
-
+for element in x:
+    if num % element == 0:
+        print(element)
